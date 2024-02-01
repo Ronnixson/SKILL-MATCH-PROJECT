@@ -1,0 +1,3 @@
+d60b0588-d2ec-46b2-9b5c-1cef5f3e3b00
+https://content.guardianapis.com/search?q=<company-name>&api-key=<your-api-key>&show-fields=thumbnail
+https://content.guardianapis.com/search?section=technology&show-fields=headline,trailText,thumbnail,bodyText&order-by=newest&page-size=20&api-key=<YOUR_API_KEY>

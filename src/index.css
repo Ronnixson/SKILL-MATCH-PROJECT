@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bakbak+One&family=Moon+Dance&family=Quicksand:wght@500&family=Righteous&family=Tilt+Prism&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282727;
+  --bs-bg-opacity: 1;
+  color: white;
+  height: 100vh;
+}
+
+body {
+  background-color: #04243ae7;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23190601' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23320c02' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%234b1203' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23631703' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%237c1d04' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23952305' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23AE2906' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border-radius: 12px;
+  height: 50px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+  margin: 23px;
+}
+
+h1 {
+  font-family: "Open Sauce";
+  margin: 12px;
+  text-align: center;
+}
+p {
+  font-family: Bakbak One;
+}
+
+main {
+  margin: 20px auto;
+}
+.main {
+  width: 100%;
+}
+
+.box-container {
+  /* margin: 40px; */
+  margin: 150px;
+
+  display: flex;
+}
+
+.input {
+  background-color: transparent !important;
+  width: 50%;
+  color: white !important;
+}
+
+.box {
+  border: 2px white solid;
+  border-radius: 30px;
+  box-shadow: black 4px 3px 4px;
+  display: grid;
+  place-items: center;
+  width: 45%;
+  padding: 30px;
+  margin: 20px;
+}
+
+.box:hover {
+  box-shadow: #000 4px 3px 4px 3px;
+}
+
+img {
+  width: 70px;
+}
+
+.img {
+  width: 70px;
+  background-color: rgb(33, 35, 33);
+  margin-top: -60px;
+  border-radius: 50%;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+/* Main */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 23px;
+}
+
+.link {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.link:hover {
+  color: white;
+}
+
+.active {
+  background-color: dodgerblue;
+  border-radius: 12px;
+}
+
+.form {
+  width: 100%;
+}
+
+/* Details */
+.disabled {
+  background-color: rgb(97, 97, 97) !important;
+}
+
+.add {
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid white;
+  margin: 12px;
+}
+
+.label {
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.companies option {
+  background-color: transparent;
+}
+
+.label {
+  font-weight: 300;
+}
+
+select {
+  height: 50vh;
+}
+
+.dashboard {
+  height: 100%;
+  display: block;
+  margin: 23px;
+  font-size: 2rem;
+}
+.dashboard {
+  font-size: 1em;
+}
+.name {
+  font-family: quicksand;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 240px;
+  margin: 40px;
+}
+.dash-box {
+  margin: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.personal-info {
+  margin: 40px;
+  display: block;
+}
+
+.lower-box {
+  margin: 23px;
+  border-radius: 12px;
+  border: 1px solid white;
+  display: flex;
+}
+
+.box-1 {
+  border-right: 1px solid white;
+}
+
+.box-1,
+.box-2 {
+  padding: 30px;
+  margin: 23px;
+  width: 50%;
+}
+
+.navigation {
+  background-color: transparent !important;
+  backdrop-filter: blur(100px);
+  color: white;
+  margin: 0;
+  padding: 8px;
+}
+.brand {
+  font-size: 32px;
+}
+
+.navigation .active {
+  background-color: transparent !important;
+  color: whitesmoke;
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.nav-box img {
+  margin-bottom: 6px;
+}
+
+.com-box {
+  width: 30%;
+  border-radius: 12px;
+}
+
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 50%;
+}
+
+.com-box {
+  margin: 23px;
+  border: 1px solid white;
+  padding: 12px;
+  display: grid;
+  place-items: center;
+}
+
+.company-list img {
+  margin: 12px;
+}
+
+.company-list {
+  display: flex;
+  justify-content: center;
+}
+.com-name {
+  text-align: center;
+  font-weight: 500;
+}
+
+.modal-content {
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+  padding: 23px;
+}
+#content {
+  background-color: transparent;
+}
+
+.bodyText {
+  width: fit-content;
+}
+
+.website {
+  width: 20px;
+  margin: 3px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head .input {
+  width: 25%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+.search {
+  width: 90%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+  .box-container {
+    display: grid;
+    place-content: center;
+  }
+  .box {
+    width: 100%;
+  }
+  .profile {
+    text-align: center;
+  }
+  .dash-box {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .link {
+    font-size: 22px;
+  }
+  #root {
+    width: 98vw;
+    margin: 0;
+    margin-left: -38px !important;
+  }
+  /* #name {
+    display: none;
+  } */
+  select {
+    height: 3vh;
+  }
+  .lower-box {
+    display: block;
+  }
+  .dash-box,
+  .lower-box {
+    width: 80vw !important;
+    padding: 12px;
+    margin: 12px auto;
+  }
+  .box-1 {
+    border-right: none;
+  }
+
+  .dashboard {
+    font-size: 0.65em;
+    display: grid;
+    place-content: center;
+  }
+  h3 {
+    font-size: 1.75em;
+  }
+  /* .profile-pic {
+    width: 150px;
+  } */
+
+  .box-1,
+  .box-2 {
+    padding: 20px;
+    margin: 8px;
+    width: 100%;
+  }
+  .dashboard-container {
+    border-bottom: 1px solid white;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .input {
+    width: 100% !important;
+  }
+  .input[type="submit"] {
+    width: 85% !important;
+  }
+  body {
+    margin: 40px;
+  }
+  .box-container {
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+  .box {
+    width: 85%;
+    margin: 30px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .link {
+    font-size: 16px;
+  }
+
+  .brand {
+    font-size: 1.5rem;
+  }
+  .profile-pic {
+    width: 150px;
+  }
+  .dash-box,
+  .lower-box {
+    padding: 12px;
+    margin: 5px auto;
+  }
+
+  .cred {
+    font-size: 0.75em;
+  }
+
+  .dashboard {
+    display: grid;
+    place-content: center;
+  }
+
+  .box-container {
+    margin: auto;
+  }
+}
